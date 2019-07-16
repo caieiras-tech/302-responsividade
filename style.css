@@ -6,6 +6,7 @@ body{
                          'section section section section'
                          'footer footer footer footer';
     grid-template-rows: 20vh 30vh 60vh 40vh;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 nav{
@@ -53,6 +54,17 @@ header h1{
 section{
     grid-area: section;
     background-color: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+section p{
+    color: purple;
+    font-size: 18pt;
+    font-family: 'Barriecito', cursive;
 }
 
 footer{
