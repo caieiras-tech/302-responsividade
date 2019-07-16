@@ -70,6 +70,23 @@ section p{
 footer{
     grid-area: footer;
     background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer aside{
+    display: none;
+}
+
+footer div{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+footer div a{
+    cursor:pointer;
 }
 
 @media(min-width: 768px){
@@ -94,5 +111,9 @@ footer{
                             'nav nav section section'
                             'header header footer footer'
                             'header header footer footer';
+    }
+    
+    footer aside{
+        display: block;
     }
 }
