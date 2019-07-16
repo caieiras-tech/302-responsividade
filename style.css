@@ -38,7 +38,16 @@ nav #desktop a{
 
 header{
     grid-area: header;
-    background-color: aquamarine;
+    background-image: url(img/bannerBatata.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    color: aquamarine;
+    background-color: brown;
 }
 
 section{
